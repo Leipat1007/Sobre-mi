@@ -156,10 +156,14 @@
          <section class="contacto">
             <h1 class="title">Contacto</h1>
             <form>
-                <input type="text" placeholder="Ingrese aqui su nombre">
-                <input type="text" placeholder="Motivo de contacto">
-                <input type="email" placeholder="Ingrese aqui su email de contacto">
-                <textarea placeholder="Ingrese una descripcion de su motivo de contacto"></textarea>
+                <label for="name">Ingresar nombre</label>
+                <input type="text" id="name" placeholder="Digite aqui su nombre">
+                <label for="motivo">Ingrese el motivo</label>
+                <input type="text" id="motivo" placeholder="Digite aqui el motivo">
+                <label for="email">Email de contacto</label>
+                <input type="email" id="email" placeholder="example@example.com">
+                <label for="text-descripcion">Ingrese mas información de su motivo</label>
+                <textarea id="text-descripcion" placeholder="Describa aqui"></textarea>
                 <input type="submit" value="Enviar" class="Btn-enviar">
             </form>
          </section>
